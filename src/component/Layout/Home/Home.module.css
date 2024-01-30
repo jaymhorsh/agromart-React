@@ -1,0 +1,49 @@
+.home {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../../assets/img/image17.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.home .home_content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.home .home_content h2 {
+  font-size: 6rem;
+  font-weight: 600;
+  color: #fff;
+  padding: 1rem 0;
+  letter-spacing: 2px;
+}
+
+.home .home_content h4 {
+  font-size: 2.5rem;
+  color: #fff;
+  width: 60%;
+  line-height: 1.5;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+}
+
+.home .home_content .home_btn {
+  font-size: 1.7rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.home .home_content .home_btn:hover {
+  transform: translateY(-5px);
+}

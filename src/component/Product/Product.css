@@ -1,0 +1,29 @@
+section {
+  padding: 2rem 4%;
+}
+.heading {
+    text-align: center;
+    color: green;
+    font-size: 4rem;
+    margin: 3rem 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .product h2 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .product_btn {
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    margin: 4rem auto;
+    cursor: pointer;
+  }
+  
+  .product_btn:hover {
+    background-color: #00c16e;
+    border-color: #00c16e;
+    transition: all 0.3s ease-in-out;
+  }
+  

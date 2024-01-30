@@ -1,0 +1,53 @@
+.nav_icons,header, .nav_icons button i span  {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.show-menu {
+  top: 7rem;
+}
+.nav_icons i:hover:not(.menu){
+  color: #fff;
+  background-color: green;
+}
+.nav__toggle, .nav_icons button{
+  color: green;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: #f7f7f7;
+  /* display: none; */
+}
+.hidden{
+  display: none;
+}
+.nav_icons i{
+font-size: 1.7rem;
+padding: 8px 12px;
+margin-bottom: o.2rem;
+text-align: center;
+border-radius: 0.4rem;
+border: none;
+outline: none;
+text-decoration: none;
+color: green;
+}
+#loginForm {
+  text-align: center;
+  position: absolute;
+  width: 120px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  margin-top: 14px;
+  transition: all 0.3s ease-in-out;
+}
+#loginForm button{
+    font-size: 1.4rem;
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: green;
+}

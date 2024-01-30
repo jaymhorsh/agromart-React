@@ -1,0 +1,184 @@
+.brand .brand_container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: green;
+  padding: 1.5rem 7%;
+}
+
+.brand .brand_container h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  flex: 1;
+}
+
+.footer_section {
+  background-image: linear-gradient(rgba(120, 8, 8, 0.8), rgba(0, 0, 0, 0.8));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.partner-logos {
+  display: flex;
+  gap: 2.5rem
+}
+
+.slide {
+  display: flex;
+}
+
+.slide a img {
+  width: 60px;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3f3e3e;
+  justify-content: space-between;
+}
+
+.footer .col .logo span {
+  color: green;
+}
+
+.footer .col .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.footer .col {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-top: 2rem;
+  align-items: flex-start;
+}
+
+.footer h4 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.footer .col p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 0 8px 0;
+}
+
+.footer .follow {
+  margin-top: 20px;
+}
+
+.footer .follow i {
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  margin-right: 0.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: green;
+  background-color: #bff4be;
+  cursor: pointer;
+}
+
+.footer .follow i:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.footer a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer a:hover {
+  color: green;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer .install p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 1.5rem 0;
+}
+
+.footer .install .row {
+  width: 80px;
+  display: flex;
+}
+
+.footer .install .row img {
+  margin-right: 0.8rem;
+}
+
+.footer .copyright {
+  float: right;
+}
+
+.footer .copyright p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer .copyright p span {
+  color: green;
+  font-weight: bolder;
+}
