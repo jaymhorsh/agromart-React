@@ -5,12 +5,12 @@ import Product from "./component/Product/Product";
 import Footer from "./component/Layout/Footer/Footer";
 const App = function () {
   return (
-    <React.Fragment>
+    <>
       <Header />
       <Home />
       <Product/>
       <Footer/>
-    </React.Fragment>
+    </>
   );
 };
 
